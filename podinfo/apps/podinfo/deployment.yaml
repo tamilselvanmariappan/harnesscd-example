@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: tselvanmsc/demo_repo1:latest
+        image: ghcr.io/tselvanmsc/demo_repo1:latest
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
